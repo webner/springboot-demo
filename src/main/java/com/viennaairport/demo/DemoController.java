@@ -9,7 +9,7 @@ public class DemoController {
 
     @GetMapping("/")
     public String hello(Model model) {
-        model.addAttribute("name", "OpenShift");
+        model.addAttribute("name", "Vienna Airport");
         return "hello";
     }
 }
